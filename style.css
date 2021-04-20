@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.contenitore{
+  width: 694px;
+  height: 565px;
+  margin: auto ;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 2%;
+  border: rgba(0, 0, 0, 0.1) solid;
+}
+
+.page{
+  width: 594px;
+  height: 500px;
+  margin: 50px auto 50px ;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  height: 80px;
+}
+
+header > h2 {
+  font-weight: normal;
+  color: lime;
+  margin: 5px auto 5px;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  height: 30px;
+}
+
+nav > button {
+  margin: 5px auto;
+  width:
+}
+
+section > h3 {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.street::before {content: "\27FC ";}
+.street::after {content: " - ";}
+
+section span {
+  font-size: 12px;
+}
+
+#caricaprimo{
+  background-color: #FF8C69;
+  height: 20px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+#caricasecondo{
+  background-color: #00EE00;
+  height: 20px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+#caricaterzo{
+  background-color: #CD3700;
+  height: 20px;
+  width: 20%;
+  border-radius: 10px;
+}
